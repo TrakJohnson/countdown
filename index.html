@@ -5,6 +5,9 @@
     <title>COMPOZ</title>
     <link rel="stylesheet" href="style.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="jquery.countdown.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="background">
@@ -12,20 +15,30 @@
             THE COMPOS ARE COMING
         </div>
         <div id="timer_container">
-            <div id="days">
+            <div class="timebox" id="days">
                 <div id="days_in">
-                    10
+                    4
                 </div>
                 days
             </div>
-            <div id="hours">
+            <div class="timebox" id="hours">
                 <div id="hours_in">
-                    3
+                    2
                 </div>
-                Hours
+                hours
             </div>
-            <div id="minutes"></div>
-            <div id="seconds"></div>
+            <div class="timebox" id="minutes">
+                <div id="minutes_in">
+                    42
+                </div>
+                minutes
+            </div>
+            <div class="timebox" id="seconds">
+                <div id="seconds_in">
+                    42
+                </div>
+                seconds
+            </div>
         </div>
     </div>
 </body>

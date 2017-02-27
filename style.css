@@ -1,15 +1,32 @@
 body {
-  background: whitesmoke;
+  background: #afbbc2;
 }
 
+#background {
+  margin-top: 18%;
+}
 
 #title {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
+  margin-bottom: 30px;
 }
 
 #timer_container {
   text-align: center;
-  margin-top: 30px;
+}
+
+.timebox {
+  border-radius: 5px;
+  margin: 0px 20px 0px 20px;
+  display: inline-block;
+  padding: 20px;
+  /* hours mins days seconds text */
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.timebox div {
+  font-size: 90px;
 }
