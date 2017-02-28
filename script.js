@@ -1,8 +1,11 @@
 $(document).ready(function() {
     var date = getURLParameter("date");
-    var date = date.split(":")[0].split("-").join("/") + " " + date.split(":")[1].split("-").join(":");
-    alert(date);
-    
+    if (date) {
+        date = date.split(":")[0].split("-").join("/") + " " + date.split(":")[1].split("-").join(":");
+    } else {
+        date = "2017/03/21 9:15";
+    }
+    console.log(date);
     $('#timer_container').countdown(date, function(event) {
         $('#days_in').text(event.strftime('%D'));   
         $('#hours_in').text(event.strftime('%H'));
