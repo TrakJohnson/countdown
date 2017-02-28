@@ -2,4 +2,8 @@
 
 ## [Website](https://trakjohnson.github.io/countdown)
 
-Goal: pass date as an argument in the url
+Gives a simple and small countdown. Customize the target date by passing it as an argument:
+
+    trakjohnson.github.io/countdown/?date=yyyy-mm-dd:hh-mm
+
+Soon to come: ability to customize the text
