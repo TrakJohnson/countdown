@@ -6,4 +6,6 @@ Gives a simple and small countdown. Customize the target date by passing it as a
 
     trakjohnson.github.io/countdown/?date=yyyy-mm-dd:hh-mm
 
-Soon to come: ability to customize the text
+TODO: 
+ - ability to customize the text
+ - add functionality for seconds only
