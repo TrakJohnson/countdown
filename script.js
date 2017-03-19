@@ -3,7 +3,7 @@ $(document).ready(function() {
     if (date) {
         date = date.split(":")[0].split("-").join("/") + " " + date.split(":")[1].split("-").join(":");
     } else {
-        date = "2017/03/21 9:15";
+        date = "2017/03/22 9:15";
     }
     console.log(date);
     $('#timer_container').countdown(date, function(event) {
